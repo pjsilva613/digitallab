@@ -9,4 +9,11 @@ spring:
     config:
       server:
         git:
-          uri: 
+          uri: https://github.com/pjsilva613/digitallab.git
+          searchPath: config-data
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+  security:
+    user:
+      name: root
+      password: s3cr3t
