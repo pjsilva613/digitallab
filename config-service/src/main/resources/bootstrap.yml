@@ -1,0 +1,12 @@
+#Application Configuration
+server:
+  port: 8081
+  error:
+    include-message: always
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: 
